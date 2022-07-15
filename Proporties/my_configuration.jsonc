@@ -15,13 +15,13 @@
 		"ProcessJoiningChannel": false,
 		"ProcessImageToByte": true,
 		"ProcessBankirSending": true,
-		"ProcessKriptoCurrency": false
+		"ProcessKriptoCurrency": true
 	},
 	"UrlAddresses": {
 		"UrlRegionCurrencyRate": "http://dollaruz.pw",
 		"UrlCbCurrencyRate": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/",
 		"UrlBirjaCurrencyRate": "https://www.uzrvb.uz/",
-		"UrlKriptoCurrency": "https://coinmarketcap.com/",
+		"UrlKriptoCurrency": "https://www.binance.com/bapi/composite/v1/public/promo/cmc/cryptocurrency/quotes/latest?symbol=BTC,ETH,USDT,USDC,BNB,BUSD,XRP,ADA,SOL,DOGE,DAI,DOT,TRX,SHIB,AVAX,MATIC,LEO,WBTC,UNI,LTC",
 		"UrlBanks": {
 			"InfinBank": "https://www.infinbank.com/uz/private/exchange-rates/",
 			"Savdogarbank": "https://savdogarbank.uz/yz/",
@@ -46,7 +46,7 @@
 			"OrientFinansBank": "https://ofb.uz/about/kurs-obmena-valyut/",
 			"TuronBank": "https://turonbank.uz/oz/",
 			"TengeBank": "https://tengebank.uz/uz",
-			"Poytaxtbank": "https://poytaxtbank.uz/oz",
+			//"Poytaxtbank": "https://poytaxtbank.uz/oz",
 			"KDB_Bank": "https://www.kdb.uz/uz/interactive-services/exchange-rates",
 			"SaderatBank": "https://www.saderatbank.uz/",
 			"Htb": "https://bank.uz/uz/currency/bank/hi-tech-bank",
@@ -82,7 +82,8 @@
 		"kunlik_kurs_bot": "5137015766:AAFExZiHQTaW7IlvU5Qwd6wRygIyRBkLNi8"
 	},
 	"Telegram": {
-		"SendApiUrlImage": "http://localhost:5000/api/images/upload",
+		"SendApiUrlImage": "https://localhost:44386/api/images/upload",
+		"GetApiUrlDatabase":"https://localhost:44386/api/database/send",
 		"DbPath": "c:\\Projects\\Publish\\uz\\Data\\",
 		"ChannelId": -1001684238417,//SingleRegistry
 		"GroupId": -1001790586704,//SingleRegistry
@@ -100,7 +101,8 @@
 			"Birja": "c:\\Projects\\Publish\\uz\\images\\birja\\",
 			"Market": "c:\\Projects\\Publish\\uz\\images\\market\\",
 			"Rubl": "c:\\Projects\\Publish\\uz\\images\\rubl\\",
-			"CBU": "c:\\Projects\\Publish\\uz\\images\\cbu\\"
+			"CBU": "c:\\Projects\\Publish\\uz\\images\\cbu\\",
+			"Kripto":"c:\\Projects\\Publish\\uz\\images\\kripto\\"
 		},
 		"BotApi": "5164054871:AAG2gJJhAQ8vaJBGZCNdbU4ryosWpwrx-K8",
 		"Send": {
@@ -114,8 +116,15 @@
 			"Birja": "09:30",
 			"Market": "16:00",
 			"CBU": "09:10",
-			"Bankir": "09:15",
-      		"Default": "01:20"//first image generate time
+			"Bankir": {
+				"First":"09:15",
+				"Second":"11:20"
+			},
+      		"Default": "01:20",//first image generate time
+      		"JoiningLink":{
+      			"Start":"01:00",
+      			"Stop":"04:00"
+      		}
 		},
 		"Test":true//for testing progress
 	},
@@ -126,7 +135,7 @@
 		"CbuRate": true,
 		"BirjaRate": true,
 		"RublRate": true,
-		"KriptoCurrency": false
+		"KriptoCurrency": true
 	},
 	"GenerateImage": {
 		"RegionRate": true,
@@ -135,7 +144,7 @@
 		"CbuRate": true,
 		"BirjaRate": true,
 		"RublRate": true,
-		"KriptoCurrency": false
+		"KriptoCurrency": true
 	},
 	"SendRate": {
 		"RegionRate": false,
