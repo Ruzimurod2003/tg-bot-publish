@@ -6,15 +6,15 @@
 		"SleepMinutes": "1"
 	},
 	"EndPointSettings": {
-		"ProcessRegionCurrencyRate": true,
-		"ProcessMarketCurrencyRate": true,
+		"ProcessRegionCurrencyRate": false,
+		"ProcessMarketCurrencyRate": false,
 		"ProcessBankCurrencyRate": true,
-		"ProcessCbCurrencyRate": true,
-		"ProcessBirjaCurrencyRate": true,
-		"ProcessRublCurrencyRate": true,
+		"ProcessCbCurrencyRate": false,
+		"ProcessBirjaCurrencyRate": false,
+		"ProcessRublCurrencyRate": false,
 		"ProcessJoiningChannel": false,
-		"ProcessImageToByte": true,
-		"ProcessBankirSending": true,
+		"ProcessImageToByte": false,
+		"ProcessBankirSending": false,
 		"ProcessKriptoCurrency": true
 	},
 	"UrlAddresses": {
