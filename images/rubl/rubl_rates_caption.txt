@@ -1,21 +1,21 @@
 <b>Тижорат банкларида  рубл курси</b>
-🗓<b>Cана — 15.07.2022</b>
-⏱ <b>Янгиланган вақт - 15.07.2022 22:26</b>
+🗓<b>Cана — 23.07.2022</b>
+⏱ <b>Янгиланган вақт - 23.07.2022 14:15</b>
 
 Энг яхши сотиб олиш курси:
-- AAB - <code>165 сўм</code>
-- Kapitalbank - <code>159 сўм</code>
-- IpakYulibank - <code>155 сўм</code>
-- NBU - <code>150 сўм</code>
+- AAB - <code>167 сўм</code>
+- Kapitalbank - <code>163 сўм</code>
+- IpakYulibank - <code>160 сўм</code>
 - Savdogarbank - <code>150 сўм</code>
+- Hamkorbank - <code>140 сўм</code>
 
 
 Энг яхши сотув курси:
 - Universalbank - <code>130 сўм</code>
 - Tengebank - <code>135 сўм</code>
-- Infinbank - <code>140 сўм</code>
-- Anorbank - <code>188 сўм</code>
-- Trustbank - <code>188 сўм</code>
+- Infinbank - <code>160 сўм</code>
+- Anorbank - <code>187 сўм</code>
+- Xalqbanki - <code>188 сўм</code>
 
 
 <b>Сўнгги валюта курслари — @kunlik_kurs_bot</b>

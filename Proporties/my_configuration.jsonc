@@ -6,22 +6,22 @@
 		"SleepMinutes": "1"
 	},
 	"EndPointSettings": {
-		"ProcessRegionCurrencyRate": false,
-		"ProcessMarketCurrencyRate": false,
+		"ProcessRegionCurrencyRate": true,
+		"ProcessMarketCurrencyRate": true,
 		"ProcessBankCurrencyRate": true,
-		"ProcessCbCurrencyRate": false,
-		"ProcessBirjaCurrencyRate": false,
-		"ProcessRublCurrencyRate": false,
-		"ProcessJoiningChannel": false,
-		"ProcessImageToByte": false,
-		"ProcessBankirSending": false,
+		"ProcessCbCurrencyRate": true,
+		"ProcessBirjaCurrencyRate": true,
+		"ProcessRublCurrencyRate": true,
+		"ProcessJoiningChannel": true,
+		"ProcessImageToByte": true,
+		"ProcessBankirSending": true,
 		"ProcessKriptoCurrency": true
 	},
 	"UrlAddresses": {
 		"UrlRegionCurrencyRate": "http://dollaruz.pw",
 		"UrlCbCurrencyRate": "https://cbu.uz/uz/arkhiv-kursov-valyut/json/",
 		"UrlBirjaCurrencyRate": "https://www.uzrvb.uz/",
-		"UrlKriptoCurrency": "https://www.binance.com/bapi/composite/v1/public/promo/cmc/cryptocurrency/quotes/latest?symbol=BTC,ETH,USDT,USDC,BNB,BUSD,XRP,ADA,SOL,DOGE,DAI,DOT,TRX,SHIB,AVAX,MATIC,LEO,WBTC,UNI,LTC",
+		"UrlKriptoCurrency": "https://www.binance.com/bapi/composite/v1/public/promo/cmc/cryptocurrency/quotes/latest?symbol=BTC,ETH,USDT,USDC,BNB,BUSD,XRP,ADA,SOL,DOGE,DOT,TRX,SHIB,AVAX,MATIC,UNI",
 		"UrlBanks": {
 			"InfinBank": "https://www.infinbank.com/uz/private/exchange-rates/",
 			"Savdogarbank": "https://savdogarbank.uz/yz/",
