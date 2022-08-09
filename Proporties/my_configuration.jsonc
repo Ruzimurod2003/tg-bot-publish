@@ -6,15 +6,15 @@
 		"SleepMinutes": "1"
 	},
 	"EndPointSettings": {
-		"ProcessRegionCurrencyRate": false,
-		"ProcessMarketCurrencyRate": false,
-		"ProcessBankCurrencyRate": false,
-		"ProcessCbCurrencyRate": false,
-		"ProcessBirjaCurrencyRate": false,
-		"ProcessRublCurrencyRate": false,
-		"ProcessJoiningChannel": false,
-		"ProcessImageToByte": false,
-		"ProcessBankirSending": false,
+		"ProcessRegionCurrencyRate": true,
+		"ProcessMarketCurrencyRate": true,
+		"ProcessBankCurrencyRate": true,
+		"ProcessCbCurrencyRate": true,
+		"ProcessBirjaCurrencyRate": true,
+		"ProcessRublCurrencyRate": true,
+		"ProcessJoiningChannel": true,
+		"ProcessImageToByte": true,
+		"ProcessBankirSending": true,
 		"ProcessKriptoCurrency": true
 	},
 	"UrlAddresses": {
@@ -34,7 +34,7 @@
 			"HamkorBank": "https://hamkorbank.uz/uz/",
 			"SQB": "https://sqb.uz/api/site-kurs-api/",
 			"KapitalBank": "https://www.kapitalbank.uz/ru/welcome.php#currency-archive",
-			"IpakYuliBank": "https://ipakyulibank.uz/physical/valyuta-ayirboshlash/kurslar",
+			"IpakYuliBank": "https://ipakyulibank.uz:8888/webapi/default/get-other-contents",
 			"AgroBank": "https://agrobank.uz/",
 			"IpotekaBank": "https://www.ipotekabank.uz/uz/",
 			"NBU": "https://nbu.uz/exchange-rates/",
@@ -85,6 +85,7 @@
 		"SendApiUrlImage": "https://localhost:44386/api/images/upload",
 		"GetApiUrlDatabase":"https://localhost:44386/api/database/send",
 		"DbPath": "c:\\Projects\\Publish\\uz\\Data\\",
+		//"WebHookDatabase":"c:\\inetpub\\wwwroot\\publish\\publish\Database\\Users.db",
 		"ChannelId": -1001684238417,//SingleRegistry
 		"GroupId": -1001790586704,//SingleRegistry
     	"BankirChannelId": 5091997939,//actually mine
